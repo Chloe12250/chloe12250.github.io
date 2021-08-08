@@ -1,0 +1,215 @@
+  /* CSS Document */
+body {
+  font-size: 14px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ead376
+}
+
+.nav {
+  width: 65%;
+  margin: 10px auto;
+  height: 47px;
+  line-height: 47px;
+  border: 1px solid #f9f0e9;
+   
+}
+
+.nav a {
+  display: block;
+  width: 12%;
+  float: left;
+  color: #ead376;
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.nav a:hover {
+  color: #9fd3b6
+}
+
+.bannar {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.bannar {
+  position: relative;
+}
+
+.img-tip {
+  position: absolute;
+  bottom: 80px;
+  background: #333;
+  color: #fff;
+  opacity: 0.6;
+  display: none;
+  padding: 15px 0px
+}
+
+.bannar:hover .img-tip {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.introduction {
+  width: 65%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.image {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+
+.introduction p {
+  line-height: 32px;
+  color: #ead376;
+  font-size: 18px;
+  margin-bottom: 10px
+}
+
+.introduction h3 {
+  font-size: 24px;
+  color: #ead376;
+  margin-top: 10px
+}
+
+.line {
+  border-bottom: 3px solid #ead376;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.project {
+  width: 65%;
+  margin: 20px auto;
+  
+  overflow: hidden;
+}
+
+.pleft {
+  float: left;
+  width: 49%
+}
+
+.pright {
+  float: left;
+  width: 50%;
+  color: #ead376;
+  font-size: 16px;
+  margin-left: 1%;
+  line-height: 40px;
+  
+}
+.p2{
+	 width: 65%;
+  margin: 20px auto;
+	 color: #ead376;
+  font-size: 16px;
+   
+  line-height: 40px;
+}
+ 
+
+.album {
+  text-align: center;
+  width: 65%;
+  margin: 20px auto;
+}
+
+.album h3 {
+  border-bottom: 3px solid #ead376;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  color: #ead376;
+  line-height: 35px
+}
+
+.album_nr {
+  overflow: hidden;
+  padding-bottom: 50px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.album_nr li {
+  float: left;
+  margin-top: 20px;
+  margin:1%;
+  width: 31%;
+  list-style: none;
+}
+
+.album_nr li img {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  height: 120px;
+  background: #ead376;
+  color: #fff;
+  font-size: 16px;
+  line-height: 32px;
+  padding-top: 40px
+}
+
+@media (max-width: 1300px) {
+  .pleft {
+  float: left;
+  width: 99%
+}
+.pright {
+  float: left;
+  width: 99%;
+  color: #ead376;
+  font-size: 16px;
+  margin-left: 1%;
+  line-height: 40px;
+  
+}
+.v{
+	text-align: center; 
+	 
+}
+  .album_nr {
+    width: 68%;
+    margin: 0 auto;
+  }
+
+  .album_nr li {
+    margin-left: 3%;
+    width: 44%;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  
+  .album_nr {
+    width: 68%;
+    margin: 0 auto;
+  }
+
+  .album_nr li {
+    margin-top: 20px;
+    margin-left: 3%;
+    width: 94%;
+  }
+}
+ 
